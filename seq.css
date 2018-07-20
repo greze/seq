@@ -1,0 +1,35 @@
+:root {
+  --chocolate: #6b3e26;
+  --strawberry: #ffc5d9;
+  --mint: #c2f2d0;
+  --vanilla: #fdf5c9;
+  --cone: #ffcb85;
+}
+
+body {
+  background-color: var(--cone);
+}
+
+.onOff {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.tone1 {
+  background-color: var(--vanilla);
+}
+
+.tone2 {
+  background-color: var(--mint);
+}
+
+.tone3 {
+  background-color: var(--strawberry);
+}
+
+.tone4 {
+  background-color: var(--chocolate);
+
+}
